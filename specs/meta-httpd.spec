@@ -19,8 +19,6 @@ META-package for install HTTPD.
 %prep
 %setup -q
 
-%build
-
 %install
 install -p -d -m 0755 %{buildroot}%{_sysconfdir}/httpd/conf.d
 install -p -m 0644 %{SOURCE10} \
