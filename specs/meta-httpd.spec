@@ -1,7 +1,7 @@
 Name:                           meta-httpd
 Version:                        1.0.0
 Release:                        1%{?dist}
-Summary:                        META-package for install HTTPD
+Summary:                        META-package for install and configure HTTPD
 
 License:                        GPLv3
 
@@ -10,7 +10,7 @@ Source10:                       httpd.custom.conf
 Requires:                       httpd
 
 %description
-META-package for install HTTPD.
+META-package for install and configure HTTPD.
 
 # -------------------------------------------------------------------------------------------------------------------- #
 # -----------------------------------------------------< SCRIPT >----------------------------------------------------- #
