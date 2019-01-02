@@ -1,4 +1,4 @@
-Name:                           fedora-meta-httpd
+Name:                           meta-httpd
 Version:                        1.0.0
 Release:                        1%{?dist}
 Summary:                        META-package for install HTTPD
