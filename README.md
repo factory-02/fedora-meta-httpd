@@ -19,5 +19,5 @@ SPEC-файл для создания RPM-пакета **meta-httpd**.
 
 ## Установка
 
-1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/meta-httpd`.
+1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/fedora-meta-httpd`.
 2. Установить пакет: `dnf install meta-httpd`.
