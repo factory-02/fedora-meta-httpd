@@ -25,6 +25,7 @@ install -p -m 0644 %{SOURCE10} \
 
 %changelog
 * Sat Feb 09 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.1-1
+- New version: 1.0.1.
 
 * Wed Jan 02 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.0-1
 - Initial build.
