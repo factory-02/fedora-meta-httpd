@@ -1,5 +1,5 @@
 Name:                           meta-httpd
-Version:                        1.0.2
+Version:                        1.0.3
 Release:                        1%{?dist}
 Summary:                        META-package for install and configure HTTPD
 License:                        GPLv3
@@ -16,7 +16,7 @@ META-package for install and configure HTTPD.
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %install
-install -p -d -m 0755 %{buildroot}%{_sysconfdir}/httpd/conf.d
+%{__mkdir} -p %{buildroot}%{_sysconfdir}/httpd/conf.d
 install -p -m 0644 %{SOURCE10} \
     %{buildroot}%{_sysconfdir}/httpd/conf.d/00-httpd.custom.conf
 
@@ -24,6 +24,9 @@ install -p -m 0644 %{SOURCE10} \
 %config %{_sysconfdir}/httpd/conf.d/00-httpd.custom.conf
 
 %changelog
+* Fri Feb 15 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.3-1
+- New version: 1.0.3.
+
 * Mon Feb 11 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.2-1
 - New version: 1.0.2.
 
